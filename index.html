@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Banner Ad -->
+    <div class="ad-container ad-banner">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="XXXXXXXXXX"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <div class="theme-toggle">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password-display">
+            <input type="text" id="password" readonly placeholder="Your secure password will appear here">
+            <button id="copy-btn">
+                <span class="tooltip">Copy</span>
+                <i class="fas fa-copy"></i>
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label for="length">Password Length: <span id="length-value">12</span></label>
+                <input type="range" id="length" min="4" max="50" value="12">
+            </div>
+            <div class="setting">
+                <label for="uppercase">
+                    <input type="checkbox" id="uppercase" checked>
+                    Include Uppercase Letters
+                </label>
+            </div>
+            <div class="setting">
+                <label for="lowercase">
+                    <input type="checkbox" id="lowercase" checked>
+                    Include Lowercase Letters
+                </label>
+            </div>
+            <div class="setting">
+                <label for="numbers">
+                    <input type="checkbox" id="numbers" checked>
+                    Include Numbers
+                </label>
+            </div>
+            <div class="setting">
+                <label for="symbols">
+                    <input type="checkbox" id="symbols" checked>
+                    Include Symbols
+                </label>
+            </div>
+        </div>
+        <button id="generate-btn">Generate Password</button>
+    </div>
+
+    <!-- Square Ad -->
+    <div class="ad-container ad-square">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="XXXXXXXXXX"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
