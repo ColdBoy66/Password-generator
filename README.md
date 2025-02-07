@@ -30,7 +30,7 @@ This project is designed to showcase my skills in **front-end development** and 
 
 ## Contact
 
-- **GitHub**: [YourUsername](https://github.com/ColdBoy66)
+- **GitHub**: (https://github.com/ColdBoy66)
 - **Discord**: Ariton_
 
 ---
